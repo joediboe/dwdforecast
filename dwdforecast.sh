@@ -7,3 +7,4 @@ stunde_00=$((3*($stunde_aktuell/3)))
 echo $stunde_00
 foo=$(printf "%02d" $stunde_00)
 echo $foo
+echo "test"
